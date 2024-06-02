@@ -5,6 +5,7 @@ const submitButton = document.getElementById('submitButton');
 
 let postsArray = []
 
+// Function to initialize 
 function init() {
     const savedPosts = JSON.parse(localStorage.getItem('postsArray'));
     if (savedPosts !== null) {
@@ -12,10 +13,12 @@ function init() {
     }   
 }
 
+// Function for storing posts to local storage
 function savePosts() {
     localStorage.setItem('postsArray', JSON.stringify(postsArray))
 }
 
+// Function for submit button event listener
 submitButton.addEventListener('click', function (event) {
     event.preventDefault();
   //console.log('test')
@@ -42,6 +45,7 @@ submitButton.addEventListener('click', function (event) {
     location.href='/blog.html';
 });
 
+// Function for dark mode toggle
 function darkMode() {
     let element = document.body;
     element.classList.toggle('darkMode');
