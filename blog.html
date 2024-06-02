@@ -3,14 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href="./assets/css/styles.css"/>
+    <link rel='stylesheet' href="./assets/css/reset.css"/>
+    <link rel='stylesheet' href="./assets/css/blog.css"/>
     <title>My Blog</title>
 </head>
 <body class="darkMode">
     <header class="header">My Blog
-
-
-    </header>
+        <nav>
+           <button class="toggle-button" id='back-button' onclick="window.open('./index.html','_self')">back</button>
+           <button class='toggle-button' onclick="darkMode()">Dark Mode</button>
+        </nav>
+        </header>
+        <section class="postCards">
+            <ul id="blogPosts"></ul>
+        </section>
+        <script type="text/javascript" src="./assets/js/blog.js"></script>
+        <div>
+            <footer class="footer">
+                <a class="portfolioLink"
+                href="https://blitzbomber87.github.io/Professional-Portfolio/">My Potfolio</a>
+            </footer>
+        </div>
     
 </body>
 </html>
