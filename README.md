@@ -28,7 +28,6 @@ The application has been deployed [here] (https://blitzbomber87.github.io/My-Per
 The homepage shows the name of the Application and a Blog form where users can write their thoughts.
 
 ![homepage](https://github.com/user-attachments/assets/deae3d67-d342-41cf-ac66-0c65483bc188)
-)
 
 The user will first have to signup then login to register in order to make their reservation.
 
