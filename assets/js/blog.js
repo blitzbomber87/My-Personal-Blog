@@ -1,5 +1,5 @@
-const postList = document.querySelector('#bPosts');
-const backButton = document.querySelector('#backButton')
+const postList = document.querySelector('postList');
+const postsArray = document.querySelector('postsArray')
 
 let posts = []
 

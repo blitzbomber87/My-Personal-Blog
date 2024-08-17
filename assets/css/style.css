@@ -11,3 +11,13 @@
     padding: 20px;
     border: 1px solid black;
 }
+
+.darkMode{
+  background-color: white;
+  color: black;
+}
+
+.mode-button{
+  background-color: rgb(31, 31, 31);
+  color: white;
+}
