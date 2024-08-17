@@ -27,35 +27,19 @@ The application has been deployed [here] (https://blitzbomber87.github.io/My-Per
 
 The homepage shows the name of the Application and a Blog form where users can write their thoughts.
 
-![homepage](https://github.com/user-attachments/assets/deae3d67-d342-41cf-ac66-0c65483bc188)
+![homepage](https://github.com/user-attachments/assets/9b45bbb2-23e0-4e8d-9e82-224d2fe23220)
 
-The user will first have to signup then login to register in order to make their reservation.
+On the Blog Post's page users can find all of their blogs listed.
 
-![signuppage](https://github.com/blitzbomber87/Brookside-Hotel/assets/157855730/71705245-2afd-4cc7-b462-224eb24b9f03)
-![loginpage](https://github.com/blitzbomber87/Brookside-Hotel/assets/157855730/f58d1391-66f9-4dfa-b348-fcf312386101)
+![blogposts]![image](https://github.com/user-attachments/assets/91861efe-63d6-4ba1-813f-16377b9d4eb9)
 
-The user can view rooms to book.
+Toggle between light mode and dark mode.
 
-![booknow](https://github.com/blitzbomber87/Brookside-Hotel/assets/157855730/37421884-e35a-42f2-b004-3584c3765c82)
+![toggle]![image](https://github.com/user-attachments/assets/b19fbebe-3aec-421e-bf69-1932e32e2c00)
 
-
-After the user logs in user can see their past and current reservations.
-
-![guestreservationdashboard](https://github.com/blitzbomber87/Brookside-Hotel/assets/157855730/663be540-ccd8-491c-a495-55fd3649c0ac)
-
-The user can view different room types with overview in the room tab .
-
-![Viewrooms](https://github.com/blitzbomber87/Brookside-Hotel/assets/157855730/27f6ff12-de02-4dda-bf53-1a5d2d14959b)
-
-All hotel contact information can be found in contact us tab.
-
-![contactuspage](https://github.com/blitzbomber87/Brookside-Hotel/assets/157855730/e0e8cc4e-3a30-4d63-a852-b7fc960f4adc)
 
 ## Credits
-manfra.io (2024). "Dynamic Email Templates with Node.js and Nodemailer - Using Handlebars." https://www.youtube.com/watch?v=JbmZ86Ho01s. (mail.js)
-
 Eli - https://github.com/blitzbomber87
-Kristy - https://github.com/kristyyip
-Kyna - https://github.com/SlayerK2024
+
 
 
