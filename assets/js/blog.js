@@ -1,49 +1,31 @@
-const postList = document.querySelector('postList');
-const postsArray = document.querySelector('postsArray')
-
-let posts = []
-
-function renderPosts() {
-    postList.textcontent = '';
-    for (let i = 0; i < posts.length; i++) {
-        const post = posts[i];
-
-        const li = document.createElement('li');
-        li.textContent = post[i];
-
-        const h2 = document.createElement('h2');
-        h2.innerText = post.title;
-
-        const p = document.createElement('p');
-        p.textContent = post.content;
-
-        const h3 = document.createElement('h3');
-        h3.innerText = post.usrname;
-
-        postList.append(li);
-        li.appendChild(h2);
-        li.appendChild(p);
-        li.appendChild(h3);
-    }
-}
-
-function init() {
-    const savedPosts = JSON.parse
-    (localStorage.getItem('postsArray'));
-
-    if (savedPosts !== null) {
-        posts = savedPosts;
-    }
-    renderPosts();
-}
-
-function savePosts() {
-    localStorage.setItem('posts', JSON.stringify(postsArray))
-}
-
-function darkMode(){
-    let element = document.body;
-    element.classList.toggle('darkMode')
-}
-
-init()
+document.addEventListener('DOMContentLoaded', function() {
+    const postsContainer = document.getElementById('postsContainer');
+    const blogPosts = JSON.parse(localStorage.getItem('blogPosts')) || [];
+    
+    blogPosts.forEach(post => {
+        const postElement = document.createElement('div');
+        postElement.classList.add('post');
+        
+        const postTitle = document.createElement('h2');
+        postTitle.textContent = post.title;
+        postElement.appendChild(postTitle);
+        
+        const postAuthor = document.createElement('p');
+        postAuthor.textContent = `By: ${post.username}`;
+        postElement.appendChild(postAuthor);
+        
+        const postContent = document.createElement('p');
+        postContent.textContent = post.content;
+        postElement.appendChild(postContent);
+        
+        postsContainer.appendChild(postElement);
+    });
+    
+    document.getElementById('toggle-theme').addEventListener('click', function() {
+        document.body.classList.toggle('dark-mode');
+    });
+    
+    document.getElementById('back-button').addEventListener('click', function() {
+        window.location.href = 'index.html';
+    });
+});
