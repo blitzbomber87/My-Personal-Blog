@@ -7,30 +7,21 @@
     <link rel='stylesheet' href="assets/css/blog.css"/>
     <title>My Blog Posts</title>
 </head>
-<body class="darkMode">
-    <header class="header">My Blog Posts
-        <nav>
-           
-           <button class='toggle-button' id="darkMode" onclick="darkMode()">Dark Mode</button>
-        </nav>
-        </header>
+<body>
+    <header>
+        <h1>My Blog Posts</h1>
+        <button id="toggle-theme">Toggle Light/Dark Mode</button>
+    </header> 
 
         <main>
-            <div id="postList"></div>
-            <button class="toggle-button" id='back-button' onclick="window.open('index.html','_self')">back</button>
-
-
+            <div id="postContainer"></div>
+            <button id='back-button' onclick="window.open('index.html','_self')">back</button>
         </main>
-        <!-- <section class="postCards">
-            <ul id="blogPosts"></ul>
-        </section> -->
-        
-        <div>
-            <footer class="footer">
+      
+        <footer>
                 <a class="portfolioLink"
                 href="https://blitzbomber87.github.io/Professional-Portfolio/">My Potfolio</a>
-            </footer>
-        </div>
+        </footer>
         <script type="text/javascript" src="assets/js/blog.js"></script>
     
 </body>
