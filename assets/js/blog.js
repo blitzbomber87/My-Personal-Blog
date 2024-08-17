@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     document.getElementById('toggle-theme').addEventListener('click', function() {
-        document.body.classList.toggle('dark-mode');
+        document.body.classList.toggle('darkMode');
     });
     
     document.getElementById('back-button').addEventListener('click', function() {

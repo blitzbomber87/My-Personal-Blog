@@ -1,0 +1,11 @@
+#posts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.post {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

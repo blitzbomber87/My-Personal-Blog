@@ -17,7 +17,6 @@
   color: black;
 }
 
-.mode-button{
-  background-color: rgb(31, 31, 31);
-  color: white;
+.darkMode header, .darkMode main, .darkMode footer {
+  background-color: #444;
 }
