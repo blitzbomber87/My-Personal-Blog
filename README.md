@@ -27,7 +27,8 @@ The application has been deployed [here] (https://blitzbomber87.github.io/My-Per
 
 The homepage shows the name of the Application and a Blog form where users can write their thoughts.
 
-![homepage](https://github.com/blitzbomber87/Brookside-Hotel/assets/157855730/41955e54-a336-4f5c-bf28-8e6c2d567b70)
+![homepage](https://github.com/user-attachments/assets/deae3d67-d342-41cf-ac66-0c65483bc188)
+)
 
 The user will first have to signup then login to register in order to make their reservation.
 
