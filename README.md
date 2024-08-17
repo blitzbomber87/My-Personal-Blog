@@ -31,11 +31,11 @@ The homepage shows the name of the Application and a Blog form where users can w
 
 On the Blog Post's page users can find all of their blogs listed.
 
-![blogposts]![image](https://github.com/user-attachments/assets/91861efe-63d6-4ba1-813f-16377b9d4eb9)
+![blogposts][image](https://github.com/user-attachments/assets/91861efe-63d6-4ba1-813f-16377b9d4eb9)
 
 Toggle between light mode and dark mode.
 
-![toggle]![image](https://github.com/user-attachments/assets/b19fbebe-3aec-421e-bf69-1932e32e2c00)
+![toggle][image](https://github.com/user-attachments/assets/b19fbebe-3aec-421e-bf69-1932e32e2c00)
 
 
 ## Credits
